@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const includeNumbersValue = includeNumbers.checked;
         const includeUppercaseValue = includeUppercase.checked;
 
-        fetch('https://expense-tracker-aytr.onrender.com/gen_password', {
+        fetch('https://main-py-server.onrender.com/gen_password', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
